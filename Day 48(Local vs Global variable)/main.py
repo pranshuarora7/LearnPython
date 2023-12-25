@@ -3,8 +3,7 @@ x = 10  # global variable
 
 def my_function():
     global x
-    x = 5  # this will change the value of the global variable x
-    y = 5  # local variable
+    x = 5
 
 
 my_function()
